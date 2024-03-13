@@ -2,21 +2,21 @@
 A demonstration of using crewAI for marketing analysis with OpenAI API with translation in french at the end.
 
 
-initialization
-pip install crewai ollama langchain-community langchain-openai requests duckduckgo-search chromadb python-decouple
-export OPENAI_API_KEY=XXXXXXX
-export OPENAI_ORGANIZATION=XXXXXXX
+# initialization
+`pip install crewai ollama langchain-community langchain-openai requests duckduckgo-search chromadb python-decouple`
+
+export OPENAI_API_KEY=XXXXXXX   
+export OPENAI_ORGANIZATION=XXXXXXX  
 export NEWSAPI_KEY=XXXXXX
 
 Get the newsAPI_KEY here https://newsapi.org/
 
-And Lets go ;) 
+# And Lets go ;) 
 
 The example do a market research about the company Golem.ai
 
 You can have this type of result : 
-
-**Rapport sur le Marché de InboxCare par Golem.ai**
+`**Rapport sur le Marché de InboxCare par Golem.ai**
 
 **Vue d’Ensemble du Produit :**
 Golem.ai propose InboxCare, une solution analytique AI sophistiquée 
