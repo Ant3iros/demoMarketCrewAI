@@ -1,6 +1,8 @@
 # demoMarketCrewAI
 A demonstration of using crewAI for marketing analysis with OpenAI API with translation in french at the end.
 
+Explanation medium article [in french](https://medium.com/@benjamin.de-almeida/recruter-une-%C3%A9quipe-de-llm-09aaf7d8ef95)  
+In English (soon)  
 
 # initialization
 `pip install crewai ollama langchain-community langchain-openai requests duckduckgo-search chromadb python-decouple`
