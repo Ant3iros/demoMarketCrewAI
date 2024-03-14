@@ -12,7 +12,7 @@ class CustomAgents:
         self.OpenAIGPT35 = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=0.7)
         self.OpenAIGPT4 = ChatOpenAI(model_name="gpt-4", temperature=0.7)
         self.OpenAIGPT4T = ChatOpenAI(model_name="gpt-4-turbo-preview", temperature=0.7)
-        self.Ollama = Ollama(model="openhermes")
+        self.Ollama = Ollama(model="mistral")
 
     def newsSearcher(self):
         return Agent(
@@ -47,5 +47,5 @@ class CustomAgents:
             backstory='Translator in french, use a professionnal french for reports',
             allow_delegation=False,
             verbose=True,
-            llm=self.OpenAIGPT4T
+            llm=self.Ollama
         )
